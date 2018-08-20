@@ -50,8 +50,9 @@
 		<div class="layer bottom">
 			<div class="content-wrap">
 				<div class="content-body">
-					<h1>H1 TEXT</h1>
-					<p></p>
+					<h1>Welcome to Dark Arts Gaming</h1>
+					<p>Power for the players, to the players, by the players!</p>
+					<button>Register Now!</button>
 				</div>
 			</div>
 			<img src="img/img2.png" alt="">
@@ -59,8 +60,9 @@
 		<div class="layer top">
 			<div class="content-wrap">
 				<div class="content-body">
-					<h1>H1 Text 2</h1>
-					<p></p>
+					<h1>We Got News</h1>
+					<p>Login, and check out whats new with us!</p>
+					<button>Login Now!</button>
 				</div>
 			</div>
 			<img src="img/img1.png" alt="">
@@ -69,21 +71,146 @@
 	</section>
 	<div class="wrapper">
 		<div class="row">
-			<div class="col-4">
-				
+			<div class="postbox">
+				<div class="postrow">
+					<div class="main-post">
+						<h1 class="center">Most Recent News: </h1>
+						<img src="img/logo.png" alt="" class="post-img">
+						<div class="main">
+							<h2>Author: DAG UNSTOPPABLE</h2>
+							<p><small>DATE: Today</small></p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut deserunt dolore obcaecati perferendis quibusdam explicabo commodi ex reprehenderit debitis quidem.</p>
+							<a href=""><button>Read More</button></a>
+						</div>
+					</div>
+					<div class="postList">
+						<h1>Recent Posts: </h1>
+						<ul>
+							<li>picture</li>
+							<li>Post-name</li>
+							<li>Post Date</li>
+							<li>Author</li>
+						</ul>
+						<ul>
+							<li>picture</li>
+							<li>Post-name</li>
+							<li>Post Date</li>
+							<li>Author</li>
+						</ul>
+						<ul>
+							<li>picture</li>
+							<li>Post-name</li>
+							<li>Post Date</li>
+							<li>Author</li>
+						</ul>
+						<ul>
+							<li>picture</li>
+							<li>Post-name</li>
+							<li>Post Date</li>
+							<li>Author</li>
+						</ul>
+						<ul>
+							<li>picture</li>
+							<li>Post-name</li>
+							<li>Post Date</li>
+							<li>Author</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 			<div class="col-8">
-				<div class="picture">
-					
+				<div class="online-Users">
+					<h1>Online Users</h1>
+					<p style="cursor: pointer;">DAG UNSTOPPABLE</p>
 				</div>
-				<div class="post">
-					<h2>Author: DAG UNSTOPPABLE</h2>
-					<p><small>DATE: Today</small></p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut deserunt dolore obcaecati perferendis quibusdam explicabo commodi ex reprehenderit debitis quidem.</p>
+				<div class="online-Users">
+					<h1>Forums</h1>
+					<p style="cursor: pointer;">No Forums Created</p>
+				</div>
+				<div class="online-Users">
+					<h1>News</h1>
+					<p>No Articles Found</p>
+				</div>
+				<div class="online-Users">
+					<h1>Forum Catagories</h1>
+					<p style="cursor: pointer;">No Catagories Found</p>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="turni">
+		<h1>Tournaments</h1>
+		<div class="half">
+			<div class="team1">
+				<div>
+					<h1>Team Name</h1>
+					<p>Team Description</p>
+				</div>
+				<img src="img/team1.jpg" alt="">
+			</div>
+			<div class="team2">
+				<div>
+					<h1>Team Name</h1>
+					<p>Team Description</p>
+				</div>
+				<img src="img/team2.jpg" alt="">
+			</div>
+		</div>
+		<div class="vs">
+			<img src="img/vs.png" alt="">
+		</div>
+	</div>
+	<div class="subscribe">
+		<h1>Subscribe to our News Letter</h1>
+		<form action="#">
+			<input type="text" name="name" placeholder="Nick Name">
+			<input type="email" name="email" placeholder="E-Mail">
+			<input type="submit" name="submit" value="subscribe">
+		</form>
+	</div>
+	<footer>
+		<div class="footer-wrap">
+			<div class="connect">
+				<h1>Connect With Us</h1>
+				<div class="row-3">
+					<div class="discord">
+						<a href=""><i class="fab fa-discord fa-9x"></i></a>
+					</div>
+					<div class="youtube">
+						<a href=""><i class="fab fa-youtube-square fa-9x"></i></a>
+					</div>
+					<div class="twitter">
+						<a href=""><i class="fab fa-twitter-square fa-9x"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-widgets">
+				<div class="row-3">
+					<div class="top-users">
+						<h1>Top Active Users</h1>
+						<ol>
+							<li>No Active Users</li>
+						</ol>
+					</div>
+					<div class="top-forum">
+						<h1>Top Forums</h1>
+						<ol>
+							<li>No Active Users</li>
+						</ol>
+					</div>
+					<div class="squadbattle">
+						<h1>Squad Battles</h1>
+						<ol>
+							<li>No Active Users</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			Copyright &copy; 2018 Dark Arts Gaming (DAG). All rights reserved!
+		</div>
+	</footer>
 	<script src="js/main.js"></script>
 	<scriptsrc="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </body>

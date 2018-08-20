@@ -9,6 +9,7 @@ body {
 	padding: 0px;
 	width: 100%;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -112,6 +113,7 @@ h2,h3,h4,h5 {
 	width: 100%;
 	height: 55vw;
 	overflow: hidden;
+	box-shadow: 4px 4px 4px;
 }
 
 .layer {
@@ -155,6 +157,7 @@ h2,h3,h4,h5 {
 
 .bottom .content-body {
 	right: 5%;
+	z-index: 4;
 }
 
 .bottom h1 {
@@ -172,11 +175,50 @@ h2,h3,h4,h5 {
 	left: 35%;
 	top: 20%;
 	color: #222;
+	z-index: 4;
+}
+
+.top button {
+	width: 150px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 20px;
+	border: none;
+	font-weight: bold;
+	font-size: 18px;
+	box-shadow: 4px 4px 4px black;
+	cursor: pointer;
+}
+
+.top button:hover {
+	transition: .7s;
+	box-shadow: 8px 8px 8px black;
+	background: darkgray;
+}
+
+.bottom button {
+	width: 150px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 20px;
+	border: none;
+	font-weight: bold;
+	font-size: 18px;
+	box-shadow: 4px 4px 4px black;
+	cursor: pointer;
+	background: #fdab00;
+}
+
+.bottom button:hover {
+	transition: .7s;
+	box-shadow: 8px 8px 8px black;
+	background: darkorange;
 }
 
 .bottom .content-body {;
 	top: 20%;
-	color: #222;
+	right: 5%;
+	color: #fdab00;
 }
 
 .handle {
@@ -188,6 +230,37 @@ h2,h3,h4,h5 {
 	top: 0;
 	left: 50vw;
 	z-index: 3;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.postbox h1 {
+	color: #fdab00;
+	text-decoration: underline;
+	text-align: center;
+}
+.postrow {
+	display: grid;
+	grid-template-columns: 70% 30%; 
+	background-color: #252730;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 6px 6px 6px;
+}
+
+.main-post {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.postrow p {
+	width: 400px;
 }
 
 .main-menu ul li ul li:first-child {
@@ -204,6 +277,62 @@ h2,h3,h4,h5 {
 	display: none;
 }
 
+.main-post a button {
+	text-decoration: none;
+	background: #7f0000;
+	color: black;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 20px;
+	width: 90%;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 2px 2px 2px;
+}
+
+.main-post a button:hover {
+	transition: .6s;
+	text-decoration: none;
+	background: darkred;
+	color: black;
+	padding: 12px;
+	box-shadow: 4px 4px 4px;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.main {
+	background-color: #222;
+	padding: 20px;
+	box-shadow: 8px 8px 8px;
+}
+
+.postList ul {
+	list-style-type: none;
+	background: #222;
+	box-shadow: 6px 6px 6px;
+	margin-top: 8px;
+	padding: 10px;
+}
+
+.postList ul:hover {
+	box-shadow: 9px 9px 9px;
+	margin-bottom: 15px;
+	transition: .7s;
+	cursor: pointer;
+}
+
+.postList ul li {
+	display: inline-block;
+	padding: 10px;
+	color: #fdab00;
+}
+
 .skewed .handle {
 	top: 50%;
 	transform: rotate(30deg) translateY(-50%); 
@@ -217,10 +346,167 @@ h2,h3,h4,h5 {
 	width: calc(50vw + 1000px);
 }
 
+.online-Users {
+	background: #222;
+	width: 90%;
+	padding: 20px;
+	color: #fdab00;
+	box-shadow: 6px 6px 6px black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.post-img {
+	width: 100%;
+	margin-bottom: -5px;
+	height: 300px;
+	box-shadow: 6px 0px 6px;
+	cursor: pointer;
+}
+
 .skewed .top .content-wrap {
 	transform: skew(30deg);
 	margin-left: 1000px;
 }
+
+.turni {
+	width: 100vw;
+	height: 100vh;
+	background-color: #222;
+	margin: 5px 0px;
+	overflow: hidden;
+	box-shadow: 6px 6px 6px;
+}
+
+.turni h1 {
+	color: #fdab00;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.team1 div {
+	position: absolute;
+	margin-top: 32vh;
+	margin-left: 32vw;
+	color: #7f0000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.team2 div {
+	color: #fdab00;
+	position: absolute;
+	margin-top: 32vh;
+	margin-left: 7vw;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.team1 h1 {
+	color: #7f0000;
+}
+
+.turni .team1 img {
+	width: 80vw;
+}
+
+.turni .team2 img {
+	width: 80vw;
+}
+
+.half {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.vs img {
+	z-index: 3;
+	position: absolute;
+	margin-top: -32vw;
+	margin-left: 43.5vw;
+	width: 13vw;
+}
+
+.subscribe {
+	background-color: #bbb;
+	padding: 10px;
+	width: 60%;
+	margin: 20px auto;
+	box-shadow: 6px 6px 6px;
+	text-align: center;
+}
+
+.subscribe form input {
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	text-align: center;
+	color: #fdab00;
+	background-color: #fff;
+	box-shadow: 4px 4px 4px black;
+	margin-left: 5px;
+}
+
+.subscribe form input:focus {
+	outline: none;
+}
+
+
+.subscribe form input[type=submit] {
+	width: 250px;
+	font-size: 25px;
+	background: #7f0000;
+	color: #fdab00;
+	border: none;
+}
+
+.subscribe form input[type=submit]:hover {
+	transition: .7s;
+	box-shadow: 8px 8px 8px black;
+	background: red;
+}
+
+.row-3 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.footer-wrap {
+	background-color: #252730;
+	text-align: center;
+}
+
+.footer-wrap h1 {
+	text-align: center;
+	padding: 10px;
+	text-decoration: underline;
+}
+
+.connect {
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.connect a {
+	text-align: center;
+	color: #7f0000;
+}
+
+.connect a:hover {
+	text-align: center;
+	color: #fdab00;
+}
+
+.copyright {
+	background: #222;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+
 @media only screen and (max-width: 1168px) {
 	.main-menu label {
 		display: block;

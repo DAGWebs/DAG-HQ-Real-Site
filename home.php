@@ -5,7 +5,7 @@
 		<div class="layer bottom">
 			<div class="content-wrap">
 				<div class="content-body">
-					<h1>Welcome to Dark Arts Gaming</h1>
+					<h1 class="orgh1">Welcome to Dark Arts Gaming</h1>
 					<p>Power for the players, to the players, by the players!</p>
 					<button>Register Now!</button>
 				</div>

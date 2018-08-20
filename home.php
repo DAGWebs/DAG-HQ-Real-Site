@@ -1,51 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>DAG | </title>
-	<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Baloo|Black+Ops+One|Bungee+Inline|Bungee+Shade|Corben|Diplomata+SC|Radley" rel="stylesheet">
-</head>
-<body>
-	<nav class="main-menu">
-		<label for="menu-toggler"><i class="fas fa-bars"></i></label>
-		<h2 class="logo">Dark Arts Gaming</h2>
-		<input type="checkbox" id="menu-toggler">
-		<ul id="mainNavUl">
-			<li class="hover"><a href="#" class="hover">Home</a></li>
-			<li>
-				<a href="#">Support <i class="fas fa-caret-down"></i></a>
-				<ul>
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">Tickets</a></li>
-				</ul>
-			</li>
-			<li class="hover"><a href="#" class="hover">Forums</a></li>
-			<li>
-				<a href="#">Code of Conduct <i class="fas fa-caret-down"></i></a>
-				<ul>
-					<li><a href="#">Privacy Policy</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#">Ranks <i class="fas fa-caret-down"></i></a>
-				<ul>
-					<li><a href="#">Clan Ranks</a></li>
-					<li><a href="#">Discord Ranks</a></li>
-					<li><a href="#">Staff Ranks</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="#"><i class="fas fa-door-closed"></i> Login</a>
-				<ul>
-					<li><a href="#"><i class="fas fa-users"></i> Register</a></li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
+<?php  
+	require_once "includes/header.php";
+?>
 	<section id="wrapper" class="skewed">
 		<div class="layer bottom">
 			<div class="content-wrap">
@@ -168,50 +123,6 @@
 			<input type="submit" name="submit" value="subscribe">
 		</form>
 	</div>
-	<footer>
-		<div class="footer-wrap">
-			<div class="connect">
-				<h1>Connect With Us</h1>
-				<div class="row-3">
-					<div class="discord">
-						<a href=""><i class="fab fa-discord fa-9x"></i></a>
-					</div>
-					<div class="youtube">
-						<a href=""><i class="fab fa-youtube-square fa-9x"></i></a>
-					</div>
-					<div class="twitter">
-						<a href=""><i class="fab fa-twitter-square fa-9x"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="footer-widgets">
-				<div class="row-3">
-					<div class="top-users">
-						<h1>Top Active Users</h1>
-						<ol>
-							<li>No Active Users</li>
-						</ol>
-					</div>
-					<div class="top-forum">
-						<h1>Top Forums</h1>
-						<ol>
-							<li>No Active Users</li>
-						</ol>
-					</div>
-					<div class="squadbattle">
-						<h1>Squad Battles</h1>
-						<ol>
-							<li>No Active Users</li>
-						</ol>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="copyright">
-			Copyright &copy; 2018 Dark Arts Gaming (DAG). All rights reserved!
-		</div>
-	</footer>
-	<script src="js/main.js"></script>
-	<scriptsrc="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-</body>
-</html>
+<?php  
+	require_once "includes/footer.php";
+?>
